@@ -4,9 +4,9 @@
 
 #### Steps:
 
-* 1) Open Chrome on iOS
-* 2) Click on the input
-* 3) Type a character
+1. Open Chrome on iOS
+2. Click on the input
+3. Type a character
 
 Expected: Focus retains on input
 Actual: Focus is lost
@@ -15,11 +15,11 @@ Actual: Focus is lost
 
 #### Steps
 
-* 1) Open Chrome on iOS.
-* 2) Click on the input
-* 3) Type a character
-* 4) Refocus and type a few more characters
-* 5) Delete your query all the way
+1. Open Chrome on iOS.
+2. Click on the input
+3. Type a character
+4. Refocus and type a few more characters
+5. Delete your query all the way
 
 Expected: Focus retains on input
 Actual: Focus is lost
@@ -28,8 +28,8 @@ Actual: Focus is lost
 
 #### Steps
 
-* 1) Open browser on any mobile device (preferably one with older hardware)
-* 2) type 3 characters very fast.
+1. Open browser on any mobile device (preferably one with older hardware)
+2. type 3 characters very fast.
 
 Expected: All keys are in the input
 Actual: The 2nd or 3rd keys are dropped occassionaly
