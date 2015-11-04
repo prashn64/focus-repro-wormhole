@@ -9,6 +9,7 @@
 3. Type a character
 
 Expected: Focus retains on input
+
 Actual: Focus is lost
 
 ### BUG 2: focus loss on wormhole deactivation in iOS chrome
@@ -22,6 +23,7 @@ Actual: Focus is lost
 5. Delete your query all the way
 
 Expected: Focus retains on input
+
 Actual: Focus is lost
 
 ### Bug 3: Keystrokes dropping
@@ -32,6 +34,7 @@ Actual: Focus is lost
 2. type 3 characters very fast.
 
 Expected: All keys are in the input
+
 Actual: The 2nd or 3rd keys are dropped occassionaly
 
 This problem is exacerbated on more complex apps.
