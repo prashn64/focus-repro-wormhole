@@ -1,7 +1,40 @@
 # Focus-repro
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### BUG 1: focus loss on wormhole activation in iOS chrome
+
+#### Steps:
+
+* 1) Open Chrome on iOS
+* 2) Click on the input
+* 3) Type a character
+
+Expected: Focus retains on input
+Actual: Focus is lost
+
+### BUG 2: focus loss on wormhole deactivation in iOS chrome
+
+#### Steps
+
+* 1) Open Chrome on iOS.
+* 2) Click on the input
+* 3) Type a character
+* 4) Refocus and type a few more characters
+* 5) Delete your query all the way
+
+Expected: Focus retains on input
+Actual: Focus is lost
+
+### Bug 3: Keystrokes dropping
+
+#### Steps
+
+* 1) Open browser on any mobile device (preferably one with older hardware)
+* 2) type 3 characters very fast.
+
+Expected: All keys are in the input
+Actual: The 2nd or 3rd keys are dropped occassionaly
+
+This problem is exacerbated on more complex apps.
 
 ## Prerequisites
 
