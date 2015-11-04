@@ -5,8 +5,9 @@
 #### Steps:
 
 1. Open Chrome on iOS
-2. Click on the input
-3. Type a character
+2. Open http://prashn64.github.io/focus-repro-wormhole/ or your local server
+3. Click on the input
+4. Type a character
 
 Expected: Focus retains on input
 
@@ -17,10 +18,11 @@ Actual: Focus is lost
 #### Steps
 
 1. Open Chrome on iOS.
-2. Click on the input
-3. Type a character
-4. Refocus and type a few more characters
-5. Delete your query all the way
+2. Open http://prashn64.github.io/focus-repro-wormhole/ or your local server
+3. Click on the input
+4. Type a character
+5. Refocus and type a few more characters
+6. Delete your query all the way
 
 Expected: Focus retains on input
 
@@ -31,7 +33,8 @@ Actual: Focus is lost
 #### Steps
 
 1. Open browser on any mobile device (preferably one with older hardware)
-2. type 3 characters very fast.
+2. Open http://prashn64.github.io/focus-repro-wormhole/ or your local server
+3. type 3 characters very fast.
 
 Expected: All keys are in the input
 
