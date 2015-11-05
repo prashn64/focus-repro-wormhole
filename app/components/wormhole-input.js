@@ -1,8 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  wormholeEnabled: false,
+  classNames: ['left', 'box'],
 
+  wormholeEnabled: false,
   _wormholeDisabled: Ember.computed.not('wormholeEnabled'),
 
   value: '',
